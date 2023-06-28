@@ -1,5 +1,4 @@
-try:
-    while True:
+while True:
         n=int(input())
         if(n<=0):
             break
@@ -8,5 +7,3 @@ try:
                 if (n%i==0):
                     print(i,end=" ")
         print("")
-except:
-    pass
